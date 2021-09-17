@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>upload</title>
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/flatly/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
+    <style>
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#6abadeba;
+    font-family: 'Arial';
+}
+.login{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background: #23463f;
+        border-radius: 15px ;
+
+}
+h2{
+    text-align: center;
+    color: #277582;
+    padding: 20px;
+}
+
+h1{
+padding:40px 640px;
+}
+marquee{
+color:black;
+}
+
+#sb{
+left-padding: 130px;
+}
+    </style>
+</head>
+<body>
+<h1> WELCOME !! </h1>
+<marquee>THIS IS THE AUTHENTICATION PAGE</marquee>
+<div class="login">
+    <form action = "/success" method = "post" enctype="multipart/form-data">
+        NAME:<input type="text" name="fn">
+        <br><br>
+        ID : <input type="file" name="file" />
+        <br><br>
+
+        <input   id="sb" type = "submit" value="Upload">
+    </form>
+    </div>
+ </body>
+</html>
